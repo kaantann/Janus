@@ -1,3 +1,55 @@
+# Build artifacts
+/out/
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/*.cmake
+/*.sln
+/*.vcxproj*
+/Makefile
+/*.obj
+/*.o
+/*.exe
+/*.pdb
+/*.dll
+/*.lib
+/*.a
+/*.so
+/*.dylib
+
+# Submodules
+/external/**/*.lib
+/external/**/*.a
+/external/**/*.so
+/external/**/*.dll
+/external/**/*.obj
+/external/**/*.o
+
+# Visual Studio temporary files
+*.user
+*.userosscache
+*.suo
+*.ipch
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+/.vs/
+
+# VS Code workspace settings
+.vscode/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# MacOS files
+.DS_Store
+
+# Log files
+*.log
+
 # Prerequisites
 *.d
 
